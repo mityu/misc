@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "casty-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790865793,
+        "narHash": "sha256-e9VDub8SYYn6OGRoHw/1wcS6E+WQlvF/BDmLhA5W7E8=",
+        "owner": "sanohiro",
+        "repo": "casty",
+        "rev": "f72ecdd21bc8795fe673dce0d27f49a281273e78",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sanohiro",
+        "repo": "casty",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1792773339,
+        "narHash": "sha256-rZLrzrC6i+jnTAlvPZHogKDulY7WWDEv9hJeHieO7Zw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3ec636362e1816bc2f0888fa0fa2c69f1bc9e504",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "casty-src": "casty-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
